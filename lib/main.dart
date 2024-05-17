@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iot_project/dashboard.dart';
+// import 'package:iot_project/dashboard.dart';
 import 'package:iot_project/login.dart';
 
 void main() {
@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      // home: LoginScreen(),
-      home: DashboardPage(),
+      home: LoginScreen(),
+      // home: DashboardPage(),
     );
   }
 }
